@@ -54,12 +54,18 @@ export const PageTitle = styled.h1`
 
 export const SectionTitle = styled.h2`
   font-weight: 800;
-  font-size: ${(props) => props.main ? '65px' : '56px'};
+  font-size: ${(props) => props.main ? '50px' : '40px'};
   line-height: ${(props) => props.main ? '72px' : '56px'};
   width: max-content;
   max-width: 100%;
   margin-bottom: 16px;
   padding: ${(props) => props.main ? '30px 0 16px' : '0'};
+
+  .emoji {
+    color: transparent;
+    -webkit-text-fill-color: initial;
+    -webkit-text-stroke: 0;
+  }
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: ${(props) => props.main ? '56px' : '48px'};

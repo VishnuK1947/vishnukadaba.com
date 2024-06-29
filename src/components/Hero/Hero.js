@@ -9,12 +9,13 @@ const Hero = () => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Welcome To <br />
-          Vishnu's Portfolio
+        <span className="emoji">👋</span> I'm Vishnu <br />
+        a data-driven <span className="emoji">🌐</span><br />
+        software developer
         </SectionTitle>
         <SectionText style={{paddingBottom:0}}>
-        The purpose of this portfolio website is to quickly become familiar with my few projects and general information about me. <br/>
-          Access contact links for more details and a possible collaboration.
+        I am passionate about data science, software engineering, AI/ML, linguistics, and computational neuroscience. <br />
+        Scroll to learn more about me!
         </SectionText>
         {/*<Button onClick={props.handleClick}>Learn More</Button>*/}
       </LeftSection>
