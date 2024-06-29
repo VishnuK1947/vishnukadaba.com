@@ -10,7 +10,7 @@ const Hero = () => (
       <LeftSection>
         <SectionTitle main center>
           Welcome To <br />
-          My Personal Portfolio
+          Vishnu's Portfolio
         </SectionTitle>
         <SectionText style={{paddingBottom:0}}>
         The purpose of this portfolio website is to quickly become familiar with my few projects and general information about me. <br/>
