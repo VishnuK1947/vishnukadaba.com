@@ -2,6 +2,8 @@ import React from "react";
 import { FilterContainer, Button, FilterHeading } from "./ProjectsFilterStyles";
 import { SiReact, SiJavascript } from "react-icons/si";
 import { FaPhp } from "react-icons/fa";
+import { VscSourceControl } from "react-icons/vsc";
+import { GiArchiveResearch } from "react-icons/gi";
 
 const ProjectsFilter = ({ filter, filterBy }) => (
   <section>
@@ -19,27 +21,19 @@ const ProjectsFilter = ({ filter, filterBy }) => (
       </Button>
       <Button
         type="button"
-        className={filterBy === "JavaScript" ? "active" : null}
-        aria-label="Filter by JS"
-        onClick={() => filter("javascript")}
+        className={filterBy === "Full-Stack Coding" ? "active" : null}
+        aria-label="Filter by Full-Stack Coding"
+        onClick={() => filter("Full-Stack Coding")}
       >
-        <SiJavascript />
+        <VscSourceControl />
       </Button>
       <Button
         type="button"
-        className={filterBy === "React" ? "active" : null}
-        aria-label="Filter by ReactJS"
-        onClick={() => filter("react")}
+        className={filterBy === "Research" ? "active" : null}
+        aria-label="Filter by Research"
+        onClick={() => filter("Research")}
       >
-        <SiReact />
-      </Button>
-      <Button
-        type="button"
-        className={filterBy === "PHP" ? "active" : null}
-        aria-label="Filter by PHP"
-        onClick={() => filter("php")}
-      >
-        <FaPhp />
+        <GiArchiveResearch />
       </Button>
     </FilterContainer>
   </section>

@@ -1,92 +1,69 @@
 export const projects = [
   {
-    title: "Click Colour",
+    title: "Eutrophication Mitigation System",
     description:
-      "What a frontend developer doesn't build up a similar application? This app uses custom CSS properties for the UI and only pure JavaScript code to change color clicking get color button. Simple as that!",
-    image: "images/jpgs/hex-color-1.jpg",
-    imageWebp: "images/webps/hex-color-1.webp",
+      "Research project on eutrophication mitigation in the Baltic Sea using poly-aluminum chloride discharge through a dispensation mechanism, modeled through CAD, for an AUV submarine. Submitted to the Royal Swedish Academy of Engineering.",
+    image: "images/jpgs/NYAS-ConceptSketch.png",
+    imageWebp: "images/webps/NYAS-ConceptSketch.webp",
     images: [
       {
-        original: "images/projects/ClickColour/hex-color-1.jpg",
+        original: "images/projects/NYAS/NYAS-Hypothesis.webp",
         loading: "lazy",
-        originalAlt: "hex-color-1",
+        originalAlt: "Hypothesis",
       },
       {
-        original: "images/projects/ClickColour/hex-color-2.jpg",
+        original: "images/projects/NYAS/NYAS-ConceptSketch.webp",
         loading: "lazy",
-        originalAlt: "hex-color-2",
+        originalAlt: "Concept Sketch for CAD",
       },
     ],
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["CAD", "AUV", "Bioengineering"],
     id: 1,
     order: 100,
-    mainType: "javascript",
+    mainType: "Research",
+    repoUrl: "https://drive.google.com/file/d/1lGVtTnTAP4QtAtTgF_uTgw6zWUZsMmyw/view?usp=sharing",
   },
   {
-    title: "Sleet",
+    title: "Detection & Optimization of Fungal Inhibitor",
     description:
-      "This is a WordPress starter theme called sleet. A theme meant for beginning theme development from scratch with a modern workflow at that time, in February 2021.",
-    image: "images/jpgs/sleet.jpg",
-    imageWebp: "images/webps/sleet.webp",
+      "Research in the discovery and optimization of inhibitor (104% increase in binding affinity) for crown rust fungus in oats. Awarded $8,200 scholarship, stipend, and 'Best Inhibitor Design'.",
+    image: "images/jpgs/SSP-SS.png",
+    imageWebp: "images/webps/SSP-SS.webp",
     images: [
       {
-        original: "images/projects/sleet.webp",
+        original: "images/projects/SSP/SSP-SS.webp",
         loading: "lazy",
-        originalAlt: "sleet",
+        originalAlt: "Detection & Optimization of Fungal Inhibitor",
       }
     ],
-    tags: ["PHP", "WordPress", "JavaScript", "HTML", "SCSS"],
+    tags: ["Molecular Docking", "Molecular Operating Environment", "PyMOL", "Data Analytics", "Wet Lab"],
     id: 6,
     order: 98,
-    mainType: "php",
+    mainType: "Research",
+    repoUrl: "https://drive.google.com/file/d/1y-cwfPUNHQzznJoY_ijvxsxk1Ebf7IR2/view?usp=sharing",
   },
   {
-    title: "React Todo/Blog",
+    title: "ML for Cheiloscopic Analysis",
     description:
-      "When I have commenced to learn React JS, I built this nice and cool React application. It combines a Todo and blog components as well as contact. The whole stack is pointed below.",
-    image: "images/jpgs/React-todo-and-blog-home-1.jpg",
-    imageWebp: "images/webps/React-todo-and-blog-home-1.webp",
+      "I was involved in the development of a convolutional neural network to enable the determination of age and gender through cheiloscopic analysis (lip classification). The project is currently pending a patent.",
+    image: "images/jpgs/CNN-RUAS-SS2.png",
+    imageWebp: "images/webps/CNN-RUAS-SS2.webp",
     images: [
       {
         original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-home-1.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-home-1",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-1.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-1",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-blog-2.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-blog-2",
-      },
-      {
-        original:
-          "images/projects/ReactTodoBlog/React-todo-and-blog-contact.jpg",
-        loading: "lazy",
-        originalAlt: "React-todo-and-blog-contact",
+          "images/projects/MLforCheiloscopicAnalysis/CNN-RUAS-SS.webp",
+        loading: "research",
+        originalAlt: "Screenshot of paper",
       },
     ],
     tags: [
-      "React",
-      "React hooks",
-      "React Hook Form",
-      "React transition group",
-      "React router",
-      "React Modal",
-      "React Query",
-      "Axios",
-      "Reddit API",
-      "localstorage",
+      "Machine Learning",
+      "MATLAB",
+      "Data Handling",
     ],
     id: 4,
     order: 94,
-    mainType: "react",
+    mainType: "Research",
   },
   {
     title: "Historical Truth Engine",
@@ -111,7 +88,7 @@ export const projects = [
     ],
     id: 7,
     order: 93,
-    mainType: "react",
+    mainType: "Full-Stack Coding",
     repoUrl: "https://github.com/VishnuK1947/Historical-Truth-Engine",
   },
   {
@@ -158,7 +135,7 @@ export const projects = [
     ],
     id: 9,
     order: 91,
-    mainType: "react",
+    mainType: "Full-Stack Coding",
     repoUrl: "https://devpost.com/software/capy-798xm3",
     demoUrl: "https://www.youtube.com/watch?v=wMT5xClvbP8"
   },
@@ -212,7 +189,7 @@ export const projects = [
     id: 12,
     order: 88,
     repoUrl: "https://github.com/VishnuK1947",
-    mainType: "react",
+    mainType: "Full-Stack Coding",
   },
 ];
 
