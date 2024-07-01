@@ -18,6 +18,7 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { TimeLineData } from "../../constants/constants";
+import Link from "next/link";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -72,10 +73,17 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Infvyr - a passionate frontend developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est harum impedit laborum, nobis odit porro quibusdam saepe suscipit! Accusamus adipisci aliquam amet consectetur dolore doloremque eaque earum eius, est eveniet fuga, id itaque laudantium natus nesciunt nihil obcaecati omnis possimus quibusdam repellat sed velit vero. A, accusamus, adipisci aliquam dolorem eveniet excepturi fuga incidunt libero minima nisi obcaecati quae saepe! Consectetur maiores natus reiciendis rem!
+        Hello hello hello! I'm Vishnu Kadaba - a Computer Engineering/Computer Science student on a full-tuition scholarship at the University of Southern California 🏫 in sunny Los Angeles 🌴. I am deeply interested in the domains of data science and software engineering to be applied in the fields of Gen-AI 🤖, neuroscience 🧠, and linguistics 🗣.
       </SectionText>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus amet, beatae commodi consequuntur corporis cumque dicta doloremque eaque earum enim ex excepturi exercitationem fuga inventore ipsam, iste itaque laboriosam libero maiores, maxime nisi nulla odio odit omnis possimus quaerat quam quasi rerum sequi tempore temporibus vitae voluptates. Autem doloribus, veritatis! Atque aut inventore natus nulla quaerat suscipit tempore voluptates?
+        My journey in tech began with learning C in school and has since been growing rapidly with explorations in C++, Python, Javascript, and reading loads of AI/ML and deep learning papers. My career has been an exciting blend of research 🔬, projects 🛠️, and corporate work 💼. 
+      </SectionText>
+      <SectionText>
+      In research, I was involved in the development of a neural network for cheiloscopic analysis at RUAS (patent 📝 pending!) and detecting and optmizing an inhibitor for a fungal pathogen, <i>Puccinia coronata</i> at IU Bloomington (wrote a paper for the first time!!). I founded my own startup 💡, Handover, with a friend, where we automate code documentation and received really good traction, winning the grand prize 🏆 at USC's startup incubator competion.
+        Currently, I work at Ushur<Link href="https://ushur.com">🔗</Link> as a Data Science Intern where I deploy, test, and build pipelines for LLMs to be used in the process of Customer Experience Automation.
+      </SectionText>
+      <SectionText>
+      Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I seriously have an obsessions), dancing 🕺 (Bharatanatyam), playing cricket 🏏, and adventuring. I love polo shirts and exploring new places with my friends 🤠. I also sing (pretty well) in the shower.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

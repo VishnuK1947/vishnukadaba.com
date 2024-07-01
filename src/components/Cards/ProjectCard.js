@@ -14,6 +14,9 @@ import {
 } from "./CardStyles";
 import { BsPlusCircleFill } from "react-icons/bs";
 import ProjectModal from "../Modal/ProjectModal";
+import Link from "next/link";
+import { VscSourceControl } from "react-icons/vsc";
+import { FiExternalLink } from "react-icons/fi";
 
 const variants = {
   pageInitial: {
@@ -36,7 +39,7 @@ const ProjectCard = ({ item }) => {
   const openModal = () => setIsOpen(true);
   const toggleModal = () => setIsOpen(!isOpen);
 
-  const { title, description, tags, image, imageWebp, images } =
+  const { title, description, tags, image, imageWebp, images , repoUrl, demoUrl} =
     item;
 
   return (
@@ -83,6 +86,17 @@ const ProjectCard = ({ item }) => {
             return <Tag key={i}>{t}</Tag>;
           })}
         </TagList>
+        <TitleContent>
+          {repoUrl && (
+          <a href={repoUrl} target="_blank" title="Go to project source" rel="noopener noreferrer">
+           ✨Source 
+          </a>)}
+          &nbsp;&nbsp;
+          {demoUrl && (
+          <a href={demoUrl} target="_blank" title="Go to project demo" rel="noopener noreferrer">
+          🎬Demo
+          </a>)}
+        </TitleContent>
       </div>
     </motion.div>
   );

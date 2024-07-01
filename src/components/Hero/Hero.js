@@ -10,11 +10,11 @@ const Hero = () => (
       <LeftSection>
         <SectionTitle main center>
         <span className="emoji">👋</span> I'm Vishnu <br />
-        a data-driven <span className="emoji">🌐</span><br />
+        a data-driven <span className="emoji">⛁</span><br />
         software developer
         </SectionTitle>
         <SectionText style={{paddingBottom:0}}>
-        I am passionate about data science, software engineering, AI/ML, linguistics, and computational neuroscience. <br />
+        I am passionate about data science, software engineering, AI/ML, linguistics, neurotechnology, <br />and computational neuroscience. <br />
         Scroll to learn more about me!
         </SectionText>
         {/*<Button onClick={props.handleClick}>Learn More</Button>*/}
