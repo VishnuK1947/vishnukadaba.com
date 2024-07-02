@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import {useMediaQuery} from "../utils/mediaquery";
+import {useMediaQuery} from "../../utils/mediaquery";
 const images = [
   '/LA_headshot.jpg',
   '/cybertruck.jpg',
