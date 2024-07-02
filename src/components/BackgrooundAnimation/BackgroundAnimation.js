@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import {useMediaQuery} from "../utils/mediaquery";
 const images = [
   '/LA_headshot.jpg',
   '/cybertruck.jpg',
@@ -8,6 +9,10 @@ const images = [
 ];
 
 const BackgroundAnimation = () => {
+  const isMobile = useMediaQuery();
+  if (isMobile) {
+    return null;
+  }
   const [currentImage, setCurrentImage] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
