@@ -1,6 +1,7 @@
 import React from "react";
 import { DiFirebase, DiReact, DiZend } from "react-icons/di";
 import { AiOutlineTool } from "react-icons/ai";
+import { FaLaptopCode } from "react-icons/fa";
 import {
   Section,
   SectionDivider,
@@ -20,18 +21,18 @@ const Technologies = () => (
     <SectionDivider divider />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked with the following technologies in the web development world. Now I'm focused towards React and Next.js.
+      I've worked in AI/ML, software development, and biotechnology. Currently, I'm learning deep learning techniques and building Gen-AI pipelines for real-time use cases.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="6rem" />
+          <FaLaptopCode size="6rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Languages</ListTitle>
           <ListParagraph>
             Experience with <br />
-            HTML, CSS, JavaScript, React, Next.js
+            Python, C++, R, MATLAB, and more!
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -43,19 +44,19 @@ const Technologies = () => (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Next.js, Wordpress
+            MongoDB, Pinecone, Locust, Flask, LLMs, PostgreSQL, and more!
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="6rem" />
+          <DiReact size="6rem" />
         </picture>
         <ListContainer>
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            PS, XD, Zeplin, Figma, Avocode
+            React.js, Next.js, Figma, HTML, CSS, Javascript, and more!
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -67,7 +68,7 @@ const Technologies = () => (
           <ListTitle>Other Tools</ListTitle>
           <ListParagraph>
             Experience with <br />
-            WordPress CMS, Jira, Trello, Git
+            Git, Jira, Docker, Kubernetes, Bash, Powershell, and more!
           </ListParagraph>
         </ListContainer>
       </ListItem>
