@@ -83,7 +83,7 @@ const Timeline = () => {
         Currently, I work at Ushur<Link href="https://ushur.com">🔗</Link> as a Data Science Intern where I deploy, test, and build pipelines for LLMs to be used in the process of Customer Experience Automation.
       </SectionText>
       <SectionText>
-      Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I seriously have an obsessions), dancing 🕺 (Bharatanatyam), playing cricket 🏏, and adventuring. I love polo shirts and exploring new places with my friends 🤠. I also sing (pretty well) in the shower.
+      Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I seriously have an obsession), dancing 🕺 (Bharatanatyam), playing cricket 🏏, and adventuring. I love polo shirts and exploring new places with my friends 🤠. I also sing (pretty well) in the shower.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
