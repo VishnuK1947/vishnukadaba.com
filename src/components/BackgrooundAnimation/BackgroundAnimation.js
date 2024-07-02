@@ -10,9 +10,9 @@ const images = [
 
 const BackgroundAnimation = () => {
   const isMobile = useMediaQuery();
-  if (isMobile) {
-    return null;
-  }
+  //if (isMobile) {
+  //  return null;
+  //}
   const [currentImage, setCurrentImage] = useState(0);
   useEffect(() => {
     const interval = setInterval(() => {
