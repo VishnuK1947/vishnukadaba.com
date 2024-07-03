@@ -11,18 +11,31 @@ export const IntroSection = styled.section`
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  items: center;
 
   @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 0 60px 0;
     grid-template-columns: 1fr;
-    padding: 0 48px 0;
+    items: center;
   }
 
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: ${(props) => props.nopadding ? "0" : "16px 16px 0" } ;
     grid-template-columns: 1fr;
-    width: calc(100vw - 32px);
+    items: center;
   }
 `
+export const FirstItem = styled.div`
+  padding: ${(props) => props.nopadding ? "0" : "0 10px 0" } ;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 0 40px 0;
+`;
+
+export const SecondItem = styled.div`
+  padding: ${(props) => props.nopadding ? "0" : "0 10px 0" } ;
+  @media ${(props) => props.theme.breakpoints.lg} {
+    padding: 0 100px 0;
+`;
 
 export const Section = styled.section`
   display: ${(props) => props.grid ? "grid" : "flex" };
