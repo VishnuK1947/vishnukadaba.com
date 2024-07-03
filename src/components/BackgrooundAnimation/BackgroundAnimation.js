@@ -22,7 +22,7 @@ const BackgroundAnimation = () => {
   }, []);
 
   return (
-    <div style={{ position: 'relative', width: '550px', height: '550px' }}>
+    <div style={{position: 'relative', width: '500px', height: '500px' }}>
       <AnimatePresence mode="wait">
         <motion.img
           key={currentImage}

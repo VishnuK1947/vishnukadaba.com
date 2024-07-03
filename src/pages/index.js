@@ -19,6 +19,7 @@ const Home = () => {
           <BgAnimation />
         </IntroSection>
       )}
+      
       <Timeline />
       <Projects />
       <Technologies />
