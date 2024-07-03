@@ -1,5 +1,5 @@
 import {Layout} from '../layout/Layout';
-import {IntroSection, Section} from '../styles/GlobalComponents';
+import {IntroSection, Section, FirstItem, SecondItem} from '../styles/GlobalComponents';
 // import Accomplishments from '../components/Accomplishments/Accomplishments';
 import BgAnimation from '../components/BackgrooundAnimation/BackgroundAnimation';
 import Hero from '../components/Hero/Hero';
@@ -15,10 +15,15 @@ const Home = () => {
         <Section grid center> <Hero /> </Section>
       ) : (
         <IntroSection grid center>
-          <Hero />
-          <BgAnimation />
+          <FirstItem>
+            <Hero />
+          </FirstItem>
+          <SecondItem>
+            <BgAnimation />
+          </SecondItem>
         </IntroSection>
       )}
+      
       <Timeline />
       <Projects />
       <Technologies />
