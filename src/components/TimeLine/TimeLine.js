@@ -80,7 +80,7 @@ const Timeline = () => {
       </SectionText>
       <SectionText>
       In research, I was involved in the development of a neural network for cheiloscopic analysis at RUAS (patent 📝 pending!) and detecting and optimizing an inhibitor for a fungal pathogen, <i>Puccinia coronata</i> at IU Bloomington (wrote a paper for the first time!!). I founded my own startup 💡, Handover, with a friend, where we automate code documentation and received really good traction, winning the grand prize 🏆 at USC's startup incubator competion.
-        Currently, I work at Ushur<Link href="https://ushur.com">🔗</Link> as a Data Science Intern where I deploy, test, and build pipelines for LLMs to be used in the process of Customer Experience Automation.
+        I worked at Ushur<Link href="https://ushur.com">🔗</Link> as a Data Science Intern where I deployed, tested, and built pipelines for LLMs to be used in the process of Customer Experience Automation.
       </SectionText>
       <SectionText>
       Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I seriously have an obsession), dancing 🕺 (Bharatanatyam), playing cricket 🏏, and adventuring. I love polo shirts and exploring new places with my friends 🤠. I also sing (pretty well) in the shower.
