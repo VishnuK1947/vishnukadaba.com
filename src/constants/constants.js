@@ -191,11 +191,60 @@ export const projects = [
     repoUrl: "https://github.com/VishnuK1947",
     mainType: "Full-Stack Coding",
   },
+  {
+    title: "PalmLabs",
+    description:
+      "PalmLabs is an Computer Vision (ML) based ASL Learning Environment that lives on your browser as a combination of a chrome extension and web application. Winner of HackMIT Education Track.",
+    image: "images/jpgs/PalmLabs_work.png",
+    imageWebp: "images/projects/PalmLabs/PalmLabs_work.webp",
+    images: [
+      {
+        original: "images/projects/PalmLabs/PalmLabs_cover.webp",
+        loading: "lazy",
+        originalAlt: "PalmLabs Cover",
+      },
+      {
+        original: "images/projects/PalmLabs/PalmLabs_browser.webp",
+        loading: "lazy",
+        originalAlt: "PalmLabs Browser",
+      },
+      {
+        original: "images/projects/PalmLabs/PalmLabs_signin.webp",
+        loading: "lazy",
+        originalAlt: "Palm Labs Sign In",
+      },
+      {
+        original: "images/projects/PalmLabs/PalmLabs_work.webp",
+        loading: "lazy",
+        originalAlt: "Palm Labs Learner Interface",
+      },
+      {
+        original: "images/projects/PalmLabs/PalmLabs_stack.webp",
+        loading: "lazy",
+        originalAlt: "Palm Labs Tech Stack",
+      },
+    ],
+    tags: [
+      "Python",
+      "React.js",
+      "CSS",
+      "Node.js",
+      "PostgreSQL",
+      "Computer Vision",
+      "FastAPI",
+      "Llama",
+    ],
+    id: 13,
+    order: 89,
+    repoUrl: "https://github.com/VishnuK1947/PalmLabs",
+    demoUrl: "https://www.youtube.com/watch?v=Exxy5Efu1_k",
+    mainType: "Full-Stack Coding",
+  },
 ];
 
 export const TimeLineData = [
   { year: 2021, text: "Starting my journey in small-scale research and coding projects" },
   { year: 2022, text: "Working as a student researcher at IU-B & RUAS" },
   { year: 2023, text: "Started uni @ USC & delved deeper into software development" },
-  { year: 2024, text: "Building my first startup & working as a Data Science Intern" },
+  { year: 2024, text: "Hackathons, Building my first startup & working as a Data Science Intern" },
 ];
