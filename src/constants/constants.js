@@ -194,7 +194,7 @@ export const projects = [
   {
     title: "PalmLabs",
     description:
-      "PalmLabs is an Computer Vision (ML) based ASL Learning Environment that lives on your browser as a combination of a chrome extension and web application. Winner of HackMIT Education Track.",
+      "PalmLabs is a Computer Vision (ML) based ASL Learning Environment that lives on your browser as a combination of a chrome extension and web application. Winner of HackMIT Education Track.",
     image: "images/jpgs/PalmLabs_work.png",
     imageWebp: "images/projects/PalmLabs/PalmLabs_work.webp",
     images: [
@@ -246,5 +246,5 @@ export const TimeLineData = [
   { year: 2021, text: "Starting my journey in small-scale research and coding projects" },
   { year: 2022, text: "Working as a student researcher at IU-B & RUAS" },
   { year: 2023, text: "Started uni @ USC & delved deeper into software development" },
-  { year: 2024, text: "Hackathons, Building my first startup & working as a Data Science Intern" },
+  { year: 2024, text: "Hackathons, building my first startup & working as a Data Science Intern" },
 ];
