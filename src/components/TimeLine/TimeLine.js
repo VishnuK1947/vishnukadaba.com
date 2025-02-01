@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from 'react';
 
 import {
   CarouselButton,
@@ -10,15 +10,15 @@ import {
   CarouselItemText,
   CarouselItemTitle,
   CarouselMobileScrollNode,
-} from "./TimeLineStyles";
+} from './TimeLineStyles';
 import {
   Section,
   SectionDivider,
   SectionText,
   SectionTitle,
-} from "../../styles/GlobalComponents";
-import { TimeLineData } from "../../constants/constants";
-import Link from "next/link";
+} from '../../styles/GlobalComponents';
+import { TimeLineData } from '../../constants/constants';
+import Link from 'next/link';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -27,7 +27,7 @@ const Timeline = () => {
   const carouselRef = useRef();
 
   const scroll = (node, left) => {
-    return node.scrollTo({ left, behavior: "smooth" });
+    return node.scrollTo({ left, behavior: 'smooth' });
   };
 
   const handleClick = (e, i) => {
@@ -61,10 +61,10 @@ const Timeline = () => {
       scroll(carouselRef.current, 0);
     };
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
@@ -73,17 +73,38 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hello hello hello! I'm Vishnu Kadaba - a Computer Engineering/Computer Science student on a full-tuition scholarship at the University of Southern California 🏫 in sunny Los Angeles 🌴. I am deeply interested in the domains of data science and software engineering to be applied in the fields of Gen-AI 🤖, neuroscience 🧠, and linguistics 🗣.
+        Hello hello hello! I'm Vishnu Kadaba - a Computer Engineering/Computer
+        Science student on a full-tuition scholarship at the University of
+        Southern California 🏫 in sunny Los Angeles 🌴. I am deeply interested
+        in the domains of data science and software engineering to be applied in
+        the fields of Gen-AI 🤖, neuroscience 🧠, and linguistics 🗣.
       </SectionText>
       <SectionText>
-        My journey in tech began with learning C in school and has since been growing rapidly with explorations in C++, Python, Javascript, and reading loads of AI/ML and deep learning papers. My career has been an exciting blend of research 🔬, projects 🛠️, and corporate work 💼. 
+        My journey in tech began with learning C in school and has since been
+        growing rapidly with explorations in C++, Python, Javascript, and
+        reading loads of AI/ML and deep learning papers. My career has been an
+        exciting blend of research 🔬, projects 🛠️, and corporate work 💼.
       </SectionText>
       <SectionText>
-      In research, I was involved in the development of a neural network for cheiloscopic analysis at RUAS (patent 📝 pending!) and detecting and optimizing an inhibitor for a fungal pathogen, <i>Puccinia coronata</i> at IU Bloomington (wrote a paper for the first time!!). I founded my own startup 💡, Handover, with a friend, where we automate code documentation and received really good traction, winning the grand prize 🏆 at USC's startup incubator competition.
-        I worked at Ushur<Link href="https://ushur.com">🔗</Link> as a Data Science Intern where I deployed, tested, and built pipelines for LLMs to be used in the process of Customer Experience Automation. I have attended and won major prizes at hackathons like LAHacks (UCLA) and HackMIT (MIT)!
+        In research, I was involved in the development of a neural network for
+        cheiloscopic analysis at RUAS (patent 📝 pending!) and detecting and
+        optimizing an inhibitor for a fungal pathogen, <i>Puccinia coronata</i>{' '}
+        at IU Bloomington (wrote a paper for the first time!!). I founded my own
+        startup 💡, Handover, with a friend, where we automate code
+        documentation and received really good traction, winning the grand prize
+        🏆 at USC's startup incubator competition. I worked at Ushur
+        <Link href="https://ushur.com">🔗</Link> as a Data Science Intern where
+        I deployed, tested, and built pipelines for LLMs to be used in the
+        process of Customer Experience Automation. I have attended and won major
+        prizes at hackathons like LAHacks (UCLA) and HackMIT (MIT)! I currently
+        work at Vellum AI (YC W23) <Link href="https://www.vellum.ai/">🔗</Link>{' '}
+        as a Solutions Engineering Intern
       </SectionText>
       <SectionText>
-      Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I seriously have an obsession), dancing 🕺 (Bharatanatyam), playing cricket 🏏, and adventuring. I love polo shirts and exploring new places with my friends 🤠. I also sing (pretty well) in the shower.
+        Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I
+        seriously have an obsession), dancing 🕺 (Bharatanatyam), playing
+        cricket 🏏, and adventuring. I love polo shirts and exploring new places
+        with my friends 🤠. I also sing (pretty well) in the shower.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -96,7 +117,7 @@ const Timeline = () => {
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
-                onClick={(e) => handleClick(e, index)}
+                onClick={e => handleClick(e, index)}
               >
                 <CarouselItemTitle>
                   {`${item.year}`}
@@ -144,7 +165,7 @@ const Timeline = () => {
               key={index}
               index={index}
               active={activeItem}
-              onClick={(e) => handleClick(e, index)}
+              onClick={e => handleClick(e, index)}
               type="button"
               name={`slide-${index}`}
               aria-label={`slide ${index} was selected`}
