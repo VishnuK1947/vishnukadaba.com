@@ -278,6 +278,6 @@ export const TimeLineData = [
   },
   {
     year: 2025,
-    text: 'Working @ Vellum AI & building IdeaVine',
+    text: 'Working in ML at Expedia, 1st place at Anthropic and 8VC Hackathons, and building Vector AI',
   },
 ];

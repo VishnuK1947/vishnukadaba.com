@@ -95,10 +95,13 @@ const Timeline = () => {
         🏆 at USC's startup incubator competition. I worked at Ushur
         <Link href="https://ushur.com">🔗</Link> as a Data Science Intern where
         I deployed, tested, and built pipelines for LLMs to be used in the
-        process of Customer Experience Automation. I have attended and won major
-        prizes at hackathons like LAHacks (UCLA) and HackMIT (MIT)! I currently
-        work at Vellum AI (YC W23) <Link href="https://www.vellum.ai/">🔗</Link>{' '}
-        as a Solutions Engineering Intern
+        process of Customer Experience Automation. Embracing building, I have
+        won at hackathons like Anthropic (1st place), 8VC (1st place), HackMIT
+        (Education Track 1st place), and LAHacks (MLH winner)! I worked at
+        Vellum AI (YC W23) <Link href="https://www.vellum.ai/">🔗</Link> as an
+        Engineering Intern and now work at Expedia{' '}
+        <Link href="https://expediagroup.com/">🔗</Link> on the Machine Learning
+        team for Quantitative Bidding Algorithms.
       </SectionText>
       <SectionText>
         Outside of tech, my hobbies lie in studying maps 🌍 in-depth (I
