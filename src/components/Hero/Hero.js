@@ -14,8 +14,7 @@ const Hero = () => (
         software developer
         </SectionTitle>
         <SectionText style={{paddingBottom:0}}>
-        I am passionate about data science, software engineering, AI/ML, linguistics, neurotechnology, biotechnology, and computational neuroscience. <br />
-        Scroll to learn more about me!
+        ML @Expedia | prev Engineering @Vellum AI, Ushur
         </SectionText>
         {/*<Button onClick={props.handleClick}>Learn More</Button>*/}
       </LeftSection>
